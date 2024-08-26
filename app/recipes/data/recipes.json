@@ -1,0 +1,112 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Mese Almás",
+        "parts": [
+          {
+            "partName": "Tészta",
+            "ingredients": [
+              {
+                "name": "liszt",
+                "quantity": "50 dkg"
+              },
+              {
+                "name": "sütőpor",
+                "quantity": "1 csomag"
+              },
+              {
+                "name": "só",
+                "quantity": "pici"
+              },
+              {
+                "name": "cukor",
+                "quantity": "18 dkg"
+              },
+              {
+                "name": "tojás",
+                "quantity": "2 db (1 a tésztába, 1 pedig a tetejére)"
+              },
+              {
+                "name": "zsír",
+                "quantity": "16 dkg"
+              },
+              {
+                "name": "tejföl",
+                "quantity": "2 evőkanál"
+              },
+              {
+                "name": "gríz",
+                "quantity": "2 evőkanál (ne ázzon át a tészta az almás tölteléktől)"
+              }
+            ],
+            "preparation": "Az egészet összedolgozom, ha szükséges egy pici tej és két részre osztom a tésztát. Az egyiket a tepsibe teszem és megszórom a tészta tetejét a grízzel és ráteszem az almát. Az alma tetejét megint megszórom 1 evőkanál grízzel és ráteszem a másik részét a tésztának. A tetejét megkenem egy tojással és megszúrkálom villával, és lehet sütni."
+          },
+          {
+            "partName": "Almás töltelék",
+            "ingredients": [
+              {
+                "name": "reszelt alma",
+                "quantity": "80 dkg"
+              },
+              {
+                "name": "vanília cukor",
+                "quantity": "2 db"
+              },
+              {
+                "name": "cukor",
+                "quantity": "ízlés szerint"
+              },
+              {
+                "name": "fahéj",
+                "quantity": "ízlés szerint"
+              }
+            ],
+            "preparation": "Lereszelem az almát, ezután kinyomom a levét és az egészet egy pici zsíron megdinsztelem. A kihűlt almát teszem a tésztára."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Tejföl torta",
+        "parts": [
+            {
+                "partName": "Torta",
+                "ingredients": [
+                    {
+                        "name": "tejföl",
+                        "quantity": "4 doboz tejföl(vagy egy kis vödrös)"
+                    },
+                    {
+                        "name": "cukor",
+                        "quantity": "8 evőkanál"
+                    },
+                     {
+                        "name": "vanilia cukor",
+                        "quantity": "3 csomag"
+                     }
+                ],
+                "preparation": "Ezeket a hozzávalókat kikeverjük. A tejföl szobahőmérsékletű legyen."
+            },
+            {
+                "partName": "Zselatinos rész",
+                "ingredients": [
+                    {
+                        "name": "zselatin",
+                        "quantity": "kis csomag"
+                    },
+                    {
+                        "name": "tej",
+                        "quantity": "1,5 dl"
+                    }
+                ],
+                "preparation": "A zselatint a tejben felmelegítjük és forrón hozzáöntjük a kikevert tejfölhöz. Az egészet összekeverjük, és formába öntjük, majd hűtőbe tesszük. Miután megdermedt, a tetejére gyümölcskocsonyát készítünk."
+            }
+        ]
+      },
+      {
+
+      }
+    ]
+  }
+  
