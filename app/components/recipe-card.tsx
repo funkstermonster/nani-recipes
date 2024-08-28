@@ -1,13 +1,13 @@
 "use client"
 
-import { Card, CardBody, CardFooter, CardHeader } from "@nextui-org/card"
-import { Divider } from "@nextui-org/divider"
+import { Card, CardFooter } from "@nextui-org/card"
 import { RecipeData } from "../model/recipeData"
 import recipeData from "../data/recipes.json"
 import { Recipe } from "../model/recipe"
-import { Part } from "../model/part"
 import { isValidRecipe } from "../utils/recipeTypeGuards"
 import {Image} from "@nextui-org/image";
+import RecipeModal from "./recipe-modal"
+import { useModal } from "../stores/modal-store"
 
 
 export default function recipeCard() {
@@ -15,29 +15,40 @@ export default function recipeCard() {
 
   const validRecipes: Recipe[] = parsedData.recipes.filter(isValidRecipe);
 
+  const {onModalOpen} = useModal();
+
+  const handleImageClick = (recipe: Recipe) => {
+    onModalOpen("recipe-modal", recipe);
+  };
+
   return (
-    <div className="flex flex-row gap-4">
+    <div className="flex flex-row gap-4 flex-wrap">
       {validRecipes.map((recipe: Recipe) => (
-         <Card key={recipe.id}
-         isFooterBlurred
-         radius="lg"
-         className="border-none"
-       >
-         <Image
-         isZoomed
-           alt="Woman listing to music"
-           className="object-cover"
-           height={200}
-           src="/recipe-photos/mese_almas.jpg"
-           width={200}
-         />
-         <CardFooter className="justify-center before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-           <h3 className="text-tiny text-white">
-             {recipe.name}
-           </h3>
-         </CardFooter>
-       </Card>
+        <Card
+          key={recipe.id}
+          isFooterBlurred
+          radius="lg"
+          className="border-none w-60"
+        >
+          <Image
+            isZoomed
+            alt={recipe.name}
+            className="object-cover w-full h-40 cursor-pointer"
+            height={160}
+            src={recipe.image}
+            width={240}
+            onClick={() => handleImageClick(recipe)}
+            
+          />
+          <CardFooter className="justify-center bg-black/20 border-white/20 border-t overflow-hidden py-1">
+            <h3 className="text-tiny text-white">
+              {recipe.name}
+            </h3>
+          </CardFooter>
+        </Card>
       ))}
+        <RecipeModal
+        />
     </div>
   );
 }

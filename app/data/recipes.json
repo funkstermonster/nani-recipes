@@ -3,6 +3,7 @@
       {
         "id": 1,
         "name": "Mese Almás",
+        "image": "/recipe-photos/mese_almas.jpg",
         "parts": [
           {
             "partName": "Tészta",
@@ -69,6 +70,7 @@
       {
         "id": 2,
         "name": "Tejföl torta",
+        "image": "/recipe-photos/tejfol_torta.jpg",
         "parts": [
             {
                 "partName": "Torta",
