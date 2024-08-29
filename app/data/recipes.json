@@ -359,11 +359,11 @@
               "quantity": "30 dkg"
             },
             {
-              "name": "maargarin",
+              "name": "margarin",
               "quantity": "25 dkg"
             },
             {
-              "name": "tojás sárgája",
+              "name": "tojássárgája",
               "quantity": "6 db"
             }
           ],
@@ -373,7 +373,7 @@
           "partName": "Töltelék",
           "ingredients": [
             {
-              "name": "tojás fehérje",
+              "name": "tojásfehérje",
               "quantity": "6 db"
             },
             {
@@ -391,6 +391,54 @@
           ],
           "preparation": "A tojások fehérjét kemény habbá verjük, apránként hozzákeverjük a darált diót, a porcukrot, és a rumaromát.",
           "otherPreparation": "A tészta-gombócokat egyenként vékony, kerek lappá kisodorjuk. Közepükbe egy-egy teáskanálnyi diós tölteléket helyezünk. Széleit összefogjuk, mint egy zsákot. Sütőpapírral kibélelt tepsibe tesszük. Előmelegített sütőben gyorsan megsül. Még forrón megszórjuk vaníliás porcukorral."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Rántásos rétes (soros)",
+      "image": "/recipe-photos/rantasos_retes.jpg",
+      "parts": [
+        {
+          "partName": "Tészta",
+          "ingredients": [
+            {
+              "name": "liszt",
+              "quantity": "25 - 30 dkg"
+            },
+            {
+              "name": "tojás",
+              "quantity": "1 db"
+            },
+            {
+              "name": "só",
+              "quantity": "pici"
+            },
+            {
+              "name": "zsír",
+              "quantity": "diónyi"
+            },
+            {
+              "name": "tejföl",
+              "quantity": "2 dl"
+            }
+          ],
+          "preparation": "A tészta hozzávalóit gyúrjuk össze annyi liszttel, amivel lágy, de nem ragacsos tésztát kapunk. Ha ráérünk, pihentessük a tésztát, de akár azonnal fel is használható."
+        },
+        {
+          "partName": "Rántás",
+          "ingredients": [
+            {
+              "name": "liszt",
+              "quantity": "10 dkg"
+            },
+            {
+              "name": "zsír",
+              "quantity": "10 dkg"
+            }
+          ],
+          "preparation": "A zsírt olvasszuk fel, majd amikor már jó forró, szórjuk bele a lisztet és pár perc alatt, folyamatosan kevergetve készítünk belőle világos rántást. Hűstük ki.",
+          "otherPreparation": "A tésztát lisztezett deszkán kinyújtjuk vékonyra, majd rákenjük a kihűlt rántást és feltekerjük, mint a bejglit. A kész tésztát 5 egyenlő részre vágjuk. Ha kicsit lágyabb, akkor fél órára be lehet tenni a hűtőbe, hogy jobban kezelhető legyen. A tésztákat egyenként kinyújtjuk amilyen vékonyra csak tudjuk (nem baj, ha a deszka alatta átlátszik, sőt!). "
         }
       ]
     }
