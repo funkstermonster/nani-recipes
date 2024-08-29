@@ -20,7 +20,6 @@ export default function recipeModal() {
       backdrop="opaque"
       onOpenChange={onModalClose}
       isOpen={isOpen}
-      radius="lg"
       classNames={{
         body: "bg-white py-6",
         backdrop: "bg-[#292f46]/50 backdrop-opacity-40",
@@ -29,8 +28,10 @@ export default function recipeModal() {
         footer: "bg-white border-t-black border-2 rounded-b-lg",
         closeButton: "hover:bg-white/5 active:bg-white/10",
       }}
+      placement="center"
+      className="h-1/2 lg:h-auto"
     >
-      <ModalContent className="text-black">
+      <ModalContent className="text-black overflow-scroll lg:overflow-hidden">
         <ModalHeader className="flex flex-col gap-1">
           <h2 className="text-xl font-bold">{recipe.name}</h2>
         </ModalHeader>

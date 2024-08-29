@@ -8,7 +8,6 @@ import RecipeModal from "./recipe-modal"
 import RecipeCard from "./recipe-card"
 import { useState } from "react"
 import RecipeSearch from "./recipe-search"
-import { Image } from "@nextui-org/image";
 
 export default function RecipeList() {
   const parsedData: RecipeData = recipeData as RecipeData;
@@ -25,14 +24,15 @@ export default function RecipeList() {
   
   return (
     <div className="p-4">
+      <h1 className="text-center text-2xl font-black">Nani Receptjei</h1>
       <RecipeSearch searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
 
-      <div className="flex flex-row gap-4 flex-wrap justify-center md:justify-start">
+      <div className="flex flex-row gap-4 flex-wrap justify-center">
         {filteredRecipes.map((recipe: Recipe) => (
           <RecipeCard key={recipe.id} recipe={recipe} />
         ))}
       </div>
       <RecipeModal />
     </div>
-  )
+  );
 }
