@@ -345,6 +345,54 @@
           "preparation": "Összekeverjük és a tészta tetejére tesszük."
         }
       ]
+    },
+    {
+      "id": 7,
+      "name": "Diós zsák",
+      "image": "/recipe-photos/dios_zsak.jpg",
+      "parts": [
+        {
+          "partName": "Tészta",
+          "ingredients": [
+            {
+              "name": "liszt",
+              "quantity": "30 dkg"
+            },
+            {
+              "name": "maargarin",
+              "quantity": "25 dkg"
+            },
+            {
+              "name": "tojás sárgája",
+              "quantity": "6 db"
+            }
+          ],
+          "preparation": "A lisztben elmorzsoljuk a puha margarint, majd a tojások sárgájával tésztát gyúrunk belőle. Ebből dió nagyságú gombócokat formázunk. Fél órára hűtőbe helyezzük, hogy kicsit pihenjen."
+        },
+        {
+          "partName": "Töltelék",
+          "ingredients": [
+            {
+              "name": "tojás fehérje",
+              "quantity": "6 db"
+            },
+            {
+              "name": "porcukor",
+              "quantity": "25 dkg"
+            },
+            {
+              "name": "darált dió",
+              "quantity": "30 dkg"
+            },
+            {
+              "name": "rum aroma",
+              "quantity": "ízlés szerint"
+            }
+          ],
+          "preparation": "A tojások fehérjét kemény habbá verjük, apránként hozzákeverjük a darált diót, a porcukrot, és a rumaromát.",
+          "otherPreparation": "A tészta-gombócokat egyenként vékony, kerek lappá kisodorjuk. Közepükbe egy-egy teáskanálnyi diós tölteléket helyezünk. Széleit összefogjuk, mint egy zsákot. Sütőpapírral kibélelt tepsibe tesszük. Előmelegített sütőben gyorsan megsül. Még forrón megszórjuk vaníliás porcukorral."
+        }
+      ]
     }
   ]
 }

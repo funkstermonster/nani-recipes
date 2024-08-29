@@ -48,6 +48,7 @@ export default function RecipeModal() {
                 ))}
               </ul>
               <p className="mt-2">{part.preparation}</p>
+              <p className="mt-2">{part.otherPreparation}</p>
             </div>
           ))}
         </ModalBody>
