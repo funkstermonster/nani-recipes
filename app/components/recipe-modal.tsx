@@ -6,13 +6,10 @@ import {
   ModalContent,
   ModalFooter,
   ModalHeader,
-  useDisclosure,
 } from "@nextui-org/modal";
-import { RecipeModalProps } from "../model/recipeModalProps";
 import { Part } from "../model/part";
 import { Button } from "@nextui-org/button";
 import { useModal } from "../stores/modal-store";
-import { Divider } from "@nextui-org/divider";
 
 export default function recipeModal() {
   const { isModalOpen, onModalClose, type, recipe } = useModal();
@@ -29,7 +26,7 @@ export default function recipeModal() {
       classNames={{
         body: "bg-white py-6",
         backdrop: "bg-[#292f46]/50 backdrop-opacity-40",
-        base: "bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 relative mx-auto w-full p-[5px] rounded-lg",
+        base: "bg-gradient-to-r from-cyan-400 to-blue-500 relative mx-auto w-full p-[5px] rounded-lg",
         header: "bg-white border-b-black border-2 rounded-t-lg",
         footer: "bg-white border-t-black border-2 rounded-b-lg",
         closeButton: "hover:bg-white/5 active:bg-white/10",
@@ -56,7 +53,7 @@ export default function recipeModal() {
           ))}
         </ModalBody>
         <ModalFooter>
-          <Button className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 transition-all hover:from-yellow-500 hover:to-pink-500" onPress={onModalClose}>Bezárás</Button>
+          <Button className="bg-gradient-to-r from-cyan-400 to-blue-500 transition-all hover:from-cyan-400 hover:to-blue-500" onPress={onModalClose}>Bezárás</Button>
         </ModalFooter>
       </ModalContent>
     </Modal>

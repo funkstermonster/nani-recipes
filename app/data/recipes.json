@@ -1,149 +1,283 @@
 {
-    "recipes": [
-      {
-        "id": 1,
-        "name": "Mese Almás",
-        "image": "/recipe-photos/mese_almas.jpg",
-        "parts": [
-          {
-            "partName": "Tészta",
-            "ingredients": [
-              {
-                "name": "liszt",
-                "quantity": "50 dkg"
-              },
-              {
-                "name": "sütőpor",
-                "quantity": "1 csomag"
-              },
-              {
-                "name": "só",
-                "quantity": "pici"
-              },
-              {
-                "name": "cukor",
-                "quantity": "18 dkg"
-              },
-              {
-                "name": "tojás",
-                "quantity": "2 db (1 a tésztába, 1 pedig a tetejére)"
-              },
-              {
-                "name": "zsír",
-                "quantity": "16 dkg"
-              },
-              {
-                "name": "tejföl",
-                "quantity": "2 evőkanál"  
-              },
-              {
-                "name": "gríz",
-                "quantity": "2 evőkanál (ne ázzon át a tészta az almás tölteléktől)"
-              }
-            ],
-            "preparation": "Az egészet összedolgozom, ha szükséges egy pici tej és két részre osztom a tésztát. Az egyiket a tepsibe teszem és megszórom a tészta tetejét a grízzel és ráteszem az almát. Az alma tetejét megint megszórom 1 evőkanál grízzel és ráteszem a másik részét a tésztának. A tetejét megkenem egy tojással és megszúrkálom villával, és lehet sütni."
-          },
-          {
-            "partName": "Almás töltelék",
-            "ingredients": [
-              {
-                "name": "reszelt alma",
-                "quantity": "80 dkg"
-              },
-              {
-                "name": "vanília cukor",
-                "quantity": "2 db"
-              },
-              {
-                "name": "cukor",
-                "quantity": "ízlés szerint"
-              },
-              {
-                "name": "fahéj",
-                "quantity": "ízlés szerint"
-              }
-            ],
-            "preparation": "Lereszelem az almát, ezután kinyomom a levét és az egészet egy pici zsíron megdinsztelem. A kihűlt almát teszem a tésztára."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Tejföl torta",
-        "image": "/recipe-photos/tejfol_torta.jpg",
-        "parts": [
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Mese Almás",
+      "image": "/recipe-photos/mese_almas.jpg",
+      "parts": [
+        {
+          "partName": "Tészta",
+          "ingredients": [
             {
-                "partName": "Torta",
-                "ingredients": [
-                    {
-                        "name": "tejföl",
-                        "quantity": "4 doboz tejföl(vagy egy kis vödrös)"
-                    },
-                    {
-                        "name": "cukor",
-                        "quantity": "8 evőkanál"
-                    },
-                     {
-                        "name": "vanilia cukor",
-                        "quantity": "3 csomag"
-                     }
-                ],
-                "preparation": "Ezeket a hozzávalókat kikeverjük. A tejföl szobahőmérsékletű legyen."
+              "name": "liszt",
+              "quantity": "50 dkg"
             },
             {
-                "partName": "Zselatinos rész",
-                "ingredients": [
-                    {
-                        "name": "zselatin",
-                        "quantity": "kis csomag"
-                    },
-                    {
-                        "name": "tej",
-                        "quantity": "1,5 dl"
-                    }
-                ],
-                "preparation": "A zselatint a tejben felmelegítjük és forrón hozzáöntjük a kikevert tejfölhöz. Az egészet összekeverjük, és formába öntjük, majd hűtőbe tesszük. Miután megdermedt, a tetejére gyümölcskocsonyát készítünk."
-            }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Tejföl torta",
-        "parts": [
-            {
-                "partName": "Torta",
-                "ingredients": [
-                    {
-                        "name": "tejföl",
-                        "quantity": "4 doboz tejföl(vagy egy kis vödrös)"
-                    },
-                    {
-                        "name": "cukor",
-                        "quantity": "8 evőkanál"
-                    },
-                     {
-                        "name": "vanilia cukor",
-                        "quantity": "3 csomag"
-                     }
-                ],
-                "preparation": "Ezeket a hozzávalókat kikeverjük. A tejföl szobahőmérsékletű legyen."
+              "name": "sütőpor",
+              "quantity": "1 csomag"
             },
             {
-                "partName": "Zselatinos rész",
-                "ingredients": [
-                    {
-                        "name": "zselatin",
-                        "quantity": "kis csomag"
-                    },
-                    {
-                        "name": "tej",
-                        "quantity": "1,5 dl"
-                    }
-                ],
-                "preparation": "A zselatint a tejben felmelegítjük és forrón hozzáöntjük a kikevert tejfölhöz. Az egészet összekeverjük, és formába öntjük, majd hűtőbe tesszük. Miután megdermedt, a tetejére gyümölcskocsonyát készítünk."
+              "name": "só",
+              "quantity": "pici"
+            },
+            {
+              "name": "cukor",
+              "quantity": "18 dkg"
+            },
+            {
+              "name": "tojás",
+              "quantity": "2 db (1 a tésztába, 1 pedig a tetejére)"
+            },
+            {
+              "name": "zsír",
+              "quantity": "16 dkg"
+            },
+            {
+              "name": "tejföl",
+              "quantity": "2 evőkanál"
+            },
+            {
+              "name": "gríz",
+              "quantity": "2 evőkanál (ne ázzon át a tészta az almás tölteléktől)"
             }
-        ]
-      }
-    ]
-  }
-  
+          ],
+          "preparation": "Az egészet összedolgozom, ha szükséges egy pici tej és két részre osztom a tésztát. Az egyiket a tepsibe teszem és megszórom a tészta tetejét a grízzel és ráteszem az almát. Az alma tetejét megint megszórom 1 evőkanál grízzel és ráteszem a másik részét a tésztának. A tetejét megkenem egy tojással és megszúrkálom villával, és lehet sütni."
+        },
+        {
+          "partName": "Almás töltelék",
+          "ingredients": [
+            {
+              "name": "reszelt alma",
+              "quantity": "80 dkg"
+            },
+            {
+              "name": "vanília cukor",
+              "quantity": "2 db"
+            },
+            {
+              "name": "cukor",
+              "quantity": "ízlés szerint"
+            },
+            {
+              "name": "fahéj",
+              "quantity": "ízlés szerint"
+            }
+          ],
+          "preparation": "Lereszelem az almát, ezután kinyomom a levét és az egészet egy pici zsíron megdinsztelem. A kihűlt almát teszem a tésztára."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tejföl torta",
+      "image": "/recipe-photos/tejfol_torta.jpg",
+      "parts": [
+        {
+          "partName": "Torta",
+          "ingredients": [
+            {
+              "name": "tejföl",
+              "quantity": "4 doboz tejföl(vagy egy kis vödrös)"
+            },
+            {
+              "name": "cukor",
+              "quantity": "8 evőkanál"
+            },
+            {
+              "name": "vanilia cukor",
+              "quantity": "3 csomag"
+            }
+          ],
+          "preparation": "Ezeket a hozzávalókat kikeverjük. A tejföl szobahőmérsékletű legyen."
+        },
+        {
+          "partName": "Zselatinos rész",
+          "ingredients": [
+            {
+              "name": "zselatin",
+              "quantity": "kis csomag"
+            },
+            {
+              "name": "tej",
+              "quantity": "1,5 dl"
+            }
+          ],
+          "preparation": "A zselatint a tejben felmelegítjük és forrón hozzáöntjük a kikevert tejfölhöz. Az egészet összekeverjük, és formába öntjük, majd hűtőbe tesszük. Miután megdermedt, a tetejére gyümölcskocsonyát készítünk."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pozsonyi kifli",
+      "image": "/recipe-photos/pozsonyi_kifli.jpg",
+      "parts": [
+        {
+          "partName": "Tészta",
+          "ingredients": [
+            {
+              "name": "liszt",
+              "quantity": "50 dkg"
+            },
+            {
+              "name": "zsír",
+              "quantity": "25 dkg"
+            },
+            {
+              "name": "élesztő",
+              "quantity": "5 dkg"
+            },
+            {
+              "name": "tojás",
+              "quantity": "1 db"
+            },
+            {
+              "name": "tejföl",
+              "quantity": "1 evőkanál"
+            },
+            {
+              "name": "cukor",
+              "quantity": "1 evőkanál"
+            },
+            {
+              "name": "tej",
+              "quantity": "1,5 dl"
+            },
+            {
+              "name": "só",
+              "quantity": "1 csipet"
+            }
+          ],
+          "preparation": "Összeállítom a tésztát és fél órát pihentetem."
+        },
+        {
+          "partName": "Töltelék",
+          "ingredients": [
+            {
+              "name": "dió",
+              "quantity": "30 dkg"
+            },
+            {
+              "name": "cukor",
+              "quantity": "15 dkg"
+            },
+            {
+              "name": "vanilia cukor",
+              "quantity": "1 csomag"
+            },
+            {
+              "name": "citrom reszelt héja",
+              "quantity": "1 db"
+            },
+            {
+              "name": "tej",
+              "quantity": "2 dl"
+            }
+          ],
+          "preparation": "Ha kész, akkor sütés előtt 20 perc pihentetés."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Hájas kocka",
+      "image": "/recipe-photos/hajas_kocka.jpg",
+      "parts": [
+        {
+          "partName": "Kenéshez",
+          "ingredients": [
+            {
+              "name": "háj",
+              "quantity": "30 dkg"
+            },
+            {
+              "name": "liszt",
+              "quantity": "10 dkg"
+            }
+          ],
+          "preparation": "Össze kell dolgozni az egészet, és rá kell kenni a tetejére."
+        },
+        {
+          "partName": "Tészta",
+          "ingredients": [
+            {
+              "name": "liszt",
+              "quantity": "60 dkg"
+            },
+            {
+              "name": "tojás",
+              "quantity": "1 db"
+            },
+            {
+              "name": "tejföl",
+              "quantity": "1 evőkanál"
+            },
+            {
+              "name": "kristálycukor",
+              "quantity": "1 kávéskanál"
+            },
+            {
+              "name": "langyos víz",
+              "quantity": "4 dl"
+            },
+            {
+              "name": "10% ecet",
+              "quantity": "1 evőkanál"
+            }
+          ],
+          "preparation": "Egyszer feltekerem, utána hajtogatom. 30 percig pihentetem, + még háromszor. A telekockát átkrnjük vízzel és a lyukas tésztát rátesszük és sütjük. (4x4)"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sós háromszög",
+      "image": "/recipe-photos/sos_haromszog.jpg",
+      "parts": [
+        {
+          "partName": "Kenéshez",
+          "ingredients": [
+            {
+              "name": "Ráma",
+              "quantity": "1 db"
+            },
+            {
+              "name": "tojássárgája",
+              "quantity": "3 db"
+            },
+            {
+              "name": "só",
+              "quantity": "1 kávéskanál"
+            }
+          ],
+          "preparation": "Kikeverem és a tészta tetejére kenem. Vagy tejfölt is használhatunk Ráma helyett, és akkor a tojássárgáját kell összekeverni a tejföllel és ezt kell kenni a tetejére."
+        },
+        {
+          "partName": "Tészta",
+          "ingredients": [
+            {
+              "name": "liszt",
+              "quantity": "80 dkg"
+            },
+            {
+              "name": "só",
+              "quantity": "1 evőkanál"
+            },
+            {
+              "name": "élesztő",
+              "quantity": "5 dkg"
+            },
+            {
+              "name": "tejföl",
+              "quantity": "?"
+            },
+            {
+              "name": "tej",
+              "quantity": "1/2"
+            }
+          ],
+          "preparation": "Az élesztőt felfuttatom és a liszthez teszem és összedolgozom, 2dl olaj. Feltekerem és háromszögeket vágok belőle."
+        }
+      ]
+    }
+  ]
+}

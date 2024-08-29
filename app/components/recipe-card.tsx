@@ -41,7 +41,7 @@ export default function recipeCard() {
             
           />
           <CardFooter className="justify-center bg-black/20 border-white/20 border-t overflow-hidden py-1">
-            <h3 className="text-tiny text-white">
+            <h3 className="text-black uppercase font-bold text-xs">
               {recipe.name}
             </h3>
           </CardFooter>
