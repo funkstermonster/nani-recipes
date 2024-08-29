@@ -278,6 +278,73 @@
           "preparation": "Az élesztőt felfuttatom és a liszthez teszem és összedolgozom, 2dl olaj. Feltekerem és háromszögeket vágok belőle."
         }
       ]
+    },
+    {
+      "id": 6,
+      "name": "Reszelt túrós",
+      "image": "/recipe-photos/reszelt_turos.jpg",
+      "parts": [
+        {
+          "partName": "Tészta",
+          "ingredients": [
+            {
+              "name": "liszt",
+              "quantity": "35 dkg"
+            },
+            {
+              "name": "só",
+              "quantity": "pici"
+            },
+            {
+              "name": "Ráma",
+              "quantity": "25 dkg"
+            },
+            {
+              "name": "sütőpor",
+              "quantity": "1 csomag"
+            },
+            {
+              "name": "cukor",
+              "quantity": "10 dkg"
+            },
+            {
+              "name": "kakaópor (cukrozatlan)",
+              "quantity": "2-3 evőkanál"
+            },
+            {
+              "name": "tojás",
+              "quantity": "1 db"
+            }
+          ],
+          "preparation": "Az egészet összedolgozzuk és két részre osztjuk. Az egyiket a tepsibe reszeljük, a másikat a túró tetejére."
+        },
+        {
+          "partName": "Túrós töltelék",
+          "ingredients": [
+            {
+              "name": "túró",
+              "quantity": "50 dkg"
+            },
+            {
+              "name": "vanília cukor",
+              "quantity": "2 db"
+            },
+            {
+              "name": "tojás",
+              "quantity": "1 db"
+            },
+            {
+              "name": "tejföl",
+              "quantity": "2-3 evőkanál"
+            },
+            {
+              "name": "cukor",
+              "quantity": "ízlés szerint"
+            }
+          ],
+          "preparation": "Összekeverjük és a tészta tetejére tesszük."
+        }
+      ]
     }
   ]
 }
