@@ -9,7 +9,7 @@ import { Part } from "../model/part";
 import { Button } from "@nextui-org/button";
 import { useModal } from "../stores/modal-store";
 
-export default function recipeModal() {
+export default function RecipeModal() {
   const { isModalOpen, onModalClose, type, recipe } = useModal();
   const isOpen = isModalOpen && type === "recipe-modal";
 
