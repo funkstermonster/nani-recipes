@@ -8,7 +8,7 @@ import RecipeModal from "./recipe-modal"
 import RecipeCard from "./recipe-card"
 import { useState } from "react"
 import RecipeSearch from "./recipe-search"
-
+import { Image } from "@nextui-org/image";
 
 export default function RecipeList() {
   const parsedData: RecipeData = recipeData as RecipeData;
@@ -27,7 +27,7 @@ export default function RecipeList() {
     <div className="p-4">
       <RecipeSearch searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
 
-      <div className="flex flex-row gap-4 flex-wrap">
+      <div className="flex flex-row gap-4 flex-wrap justify-center md:justify-start">
         {filteredRecipes.map((recipe: Recipe) => (
           <RecipeCard key={recipe.id} recipe={recipe} />
         ))}

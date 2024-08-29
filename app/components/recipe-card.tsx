@@ -1,4 +1,4 @@
-import { Card, CardFooter } from "@nextui-org/card";
+import { Card, CardBody, CardFooter } from "@nextui-org/card";
 import { Recipe } from "../model/recipe";
 import { useModal } from "../stores/modal-store";
 import { Image } from "@nextui-org/image";
@@ -26,13 +26,18 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
     >
       <Card
         isFooterBlurred
-        radius="lg"
         className="border-none w-60"
       >
         <Image
           isZoomed
           alt={recipe.name}
-          className="object-cover w-full h-40 cursor-pointer"
+          className="object-cover w-full h-40 cursor-pointer rounded-none"
+          classNames={{
+            img: "rounded-none",
+            wrapper: "rounded-none",
+            zoomedWrapper: "rounded-none",
+            blurredImg: "rounded-none"
+          }}
           height={160}
           src={recipe.image}
           width={240}
