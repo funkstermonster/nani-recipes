@@ -441,6 +441,134 @@
           "otherPreparation": "A tésztát lisztezett deszkán kinyújtjuk vékonyra, majd rákenjük a kihűlt rántást és feltekerjük, mint a bejglit. A kész tésztát 5 egyenlő részre vágjuk. Ha kicsit lágyabb, akkor fél órára be lehet tenni a hűtőbe, hogy jobban kezelhető legyen. A tésztákat egyenként kinyújtjuk amilyen vékonyra csak tudjuk (nem baj, ha a deszka alatta átlátszik, sőt!). "
         }
       ]
+    },
+    {
+      "id": 9,
+      "name": "Herőce",
+      "image": "/recipe-photos/heroce.jpg",
+      "parts": [
+        {
+          "partName": "Hozzávalók",
+          "ingredients": [
+            {
+              "name": "liszt",
+              "quantity": "50 dkg"
+            },
+            {
+              "name": "tojássárgája",
+              "quantity": "6 db"
+            },
+            {
+              "name": "porcukor",
+              "quantity": "3 evőkanál"
+            },
+            {
+              "name": "zsír",
+              "quantity": "diónyi"
+            },
+            {
+              "name": "só",
+              "quantity": "csipet"
+            },
+            {
+              "name": "tejföl",
+              "quantity": "??"
+            }
+          ],
+          "preparation": "Összedolgozom, 1 órát pihentetem, vékonyra kinyújtom és sütöm."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Rózsafánk",
+      "image": "/recipe-photos/rozsafank.jpg",
+      "parts": [
+        {
+          "partName": "Hozzávalók",
+          "ingredients": [
+            {
+              "name": "tejföl",
+              "quantity": "2 db vagy 2dl ??"
+            },
+            {
+              "name": "só",
+              "quantity": "pici"
+            },
+            {
+              "name": "cukor",
+              "quantity": "pici"
+            },
+            {
+              "name": "élesztő",
+              "quantity": "pici"
+            },
+            {
+              "name": "tojás",
+              "quantity": "1db + 1-nek a sárgája + a fehérje összeragasztáshoz"
+            },
+            {
+              "name": "sütőpor",
+              "quantity": "késhegynyi"
+            },
+            {
+              "name": "szódabikarbóna",
+              "quantity": "késhegynyi"
+            },
+            {
+              "name": "liszt",
+              "quantity": "amennyit a tészta felvesz"
+            }
+          ],
+          "preparation": "Ezeket összedolgozom, kinyújtom és kiszaggatom, a tojásfehérjével középen kettőt összeragasztom. Forró olajban/zsírban kisütöm. A közepét dugóval benyomom és ide teszem a lekvárt."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Hókifli",
+      "image": "/recipe-photos/hokifli.webp",
+      "parts": [
+        {
+          "partName": "Hozzávalók",
+          "ingredients": [
+            {
+              "name": "rétesliszt",
+              "quantity": "40 dkg"
+            },
+            {
+              "name": "margarin",
+              "quantity": "25 dkg"
+            },
+            {
+              "name": "tejföl",
+              "quantity": "4 dl"
+            },
+            {
+              "name": "szódabikarbóna",
+              "quantity": "késhegynyi"
+            },
+            {
+              "name": "só",
+              "quantity": "csipet"
+            },
+            {
+              "name": "szikkadt szilvalekvár",
+              "quantity": "3 dl"
+            },
+            {
+              "name": "vaníliás cukor",
+              "quantity": "2 csomag"
+            },
+            {
+              "name": "zsír",
+              "quantity": "a tepsi kikenéséhez"
+            }
+          ],
+          "preparation": "A szódabikarbónával elkevert lisztben elmorzsoljuk a margarint. Annyi tejfölt adunk hozzá, hogy jól gyúrható tésztát kapjunk. Lisztezett deszkán is alaposan átdolgozzuk. 10-15 percig letakarva pihentetjük, majd kinyújtjuk. Nagyméretű fánkszaggatóval köröket szúrunk ki belőle, felső végükbe teáskanálnyi szilvalekvárt halmozunk, és feltekerjük. Kifliket formázunk belőle, és kikent tepsibe helyezzük. Előmelegített sütőben, közepes tűznél világosra sütjük. Még melegen megforgatjuk vaníliás porcukorban."
+        }
+        
+      ]
     }
   ]
 }

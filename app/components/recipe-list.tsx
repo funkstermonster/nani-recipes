@@ -27,7 +27,7 @@ export default function RecipeList() {
       <h1 className="text-center text-2xl font-black">Nani Receptjei</h1>
       <RecipeSearch searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
 
-      <div className="flex flex-row gap-4 flex-wrap justify-center">
+      <div className="flex flex-row gap-4 flex-wrap justify-center md:w-4/5 lg:w-3/5 mx-auto">
         {filteredRecipes.map((recipe: Recipe) => (
           <RecipeCard key={recipe.id} recipe={recipe} />
         ))}
