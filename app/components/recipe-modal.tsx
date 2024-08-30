@@ -29,9 +29,9 @@ export default function RecipeModal() {
         closeButton: "hover:bg-white/5 active:bg-white/10",
       }}
       placement="center"
-      className="h-1/2 lg:h-auto"
+      className="h-1/2 lg:h-4/5"
     >
-      <ModalContent className="text-black overflow-scroll lg:overflow-hidden">
+      <ModalContent className="text-black overflow-y-scroll no-scrollbar">
         <ModalHeader className="flex flex-col gap-1">
           <h2 className="text-xl font-bold">{recipe.name}</h2>
         </ModalHeader>
