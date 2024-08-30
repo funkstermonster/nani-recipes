@@ -569,6 +569,104 @@
         }
         
       ]
+    },
+    {
+      "id": 12,
+      "name": "Almás krémes",
+      "image": "/recipe-photos/almas_kremes.webp",
+      "parts": [
+        {
+          "partName": "Tészta",
+          "ingredients": [
+            {
+              "name": "liszt",
+              "quantity": "50 dkg"
+            },
+            {
+              "name": "vaj",
+              "quantity": "15 dkg"
+            },
+            {
+              "name": "zsír",
+              "quantity": "1 evőkanál"
+            },
+            {
+              "name": "porcukor",
+              "quantity": "15 dkg"
+            },
+            {
+              "name": "sütőpor",
+              "quantity": "1 csomag"
+            },
+            {
+              "name":"tojás",
+              "quantity": "2 db"
+            },
+            {
+              "name":"tejföl",
+              "quantity": "3 evőkanál"
+            },
+            {
+              "name":"vaníliás cukor",
+              "quantity": "1 csomag"
+            }
+          ],
+          "preparation": "A lisztet tálba borítjuk, beletesszük a vajat, a sütőport, a tojásokat, a zsírt, a porcukrot, és ezt tejföllel összegyúrjuk. Amikor összeállt a tészta, félretesszük pihenni, közben elkészítjük a krémeket."
+        },
+        {
+          "partName": "Krém",
+          "ingredients": [
+            {
+              "name": "vaníliás pudingpor",
+              "quantity": "2 csomag"
+            },
+            {
+              "name": "cukor",
+              "quantity": "3 evőkanál"
+            },
+            {
+              "name": "tej",
+              "quantity": "5 dl"
+            },
+            {
+              "name": "margarin",
+              "quantity": "20 dkg"
+            },
+            {
+              "name": "porcukor",
+              "quantity": "15 dkg"
+            }
+          ],
+          "preparation": "A pudingport kevés tejjel és három evőkanál cukorral simára keverjük. A többi tejet felforraljuk, és a pudinggal sűrűre főzzük. Hideg helyre tesszük."
+        },
+        {
+          "partName": "Almás töltelék",
+          "ingredients": [
+            {
+              "name": "reszelt alma",
+              "quantity": "1,5 kg"
+            },
+            {
+              "name": "vaj",
+              "quantity": "10 dkg"
+            },
+            {
+              "name": "cukor",
+              "quantity": "10 dkg"
+            },
+            {
+              "name": "fahéj",
+              "quantity": "1 evőkanál"
+            },
+            {
+              "name": "porcukor",
+              "quantity": "sütemény tetejére"
+            }
+          ],
+          "preparation": "A megtisztított, lereszelt almát vajon annyi cukorral megpároljuk, hogy a savanykás íze megmaradjon. Fahéjjal ízesítjük, majd hűlni hagyjuk.",
+          "otherPreparation": "A megpihent tésztát három részre osztjuk, ezeket egyenként tepsi nagyságú lappá kisodorjuk, és sodrófa segítségével, sütőpapírral kibélelt tepsibe helyezzük. Előmelegített sütőben világosra sütjük. A vaníliakrémhez szükséges vajat és porcukrot habosra keverjük, majd a kihűlt pudinghoz adjuk. Az egyik lapot egy tálcára helyezzük, elegyengetjük rajta az almás tölteléket, majd ráhelyezzük a második lapot. Erre a vajas vaníliakrém kerül, amit a harmadik lappal befedünk. A krémest legalább 7-8 órán át hideg helyen pihentetjük, porcukorral megszórjuk, és szeletekre vágva kínáljuk."
+        }
+      ]
     }
   ]
 }
